@@ -537,8 +537,8 @@ html {
   }
 }
 .skill-bar2{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar2 1s;
   animation-fill-mode: forwards;
@@ -554,8 +554,8 @@ html {
   }
 }
 .skill-bar3{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar3 1s;
   animation-fill-mode: forwards;
@@ -571,8 +571,8 @@ html {
   }
 }
 .skill-bar4{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar4 1s;
   animation-fill-mode: forwards;
@@ -589,8 +589,8 @@ html {
 }
 /* -----------------------col-right */
 .skill-bar5{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar5 1s;
   animation-fill-mode: forwards;
@@ -606,8 +606,8 @@ html {
   }
 }
 .skill-bar6{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar6 1s;
   animation-fill-mode: forwards;
@@ -623,8 +623,8 @@ html {
   }
 }
 .skill-bar7{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar7 1s;
   animation-fill-mode: forwards;
@@ -640,8 +640,8 @@ html {
   }
 }
 .skill-bar8{
-  /* width: 70%; */
-  /* height: 20px; */
+  width: 70%;
+  height: 20px;
   background: rgb(214, 116, 86);
   animation: bar8 1s;
   animation-fill-mode: forwards;
