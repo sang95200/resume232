@@ -520,11 +520,12 @@ html {
   height: 20px;
 }
 .skill-bar1{
-  /* width: 70%; */
-  /* height: 20px; */
+  
   background: rgb(214, 116, 86);
   animation: bar1 1s;
   animation-fill-mode: forwards;
+  width: 70%;
+  height: 20px;
 }
 @keyframes bar1{
   0%{
@@ -532,12 +533,12 @@ html {
     height: 20px;
   }
   100%{
-    width: 80%;
+    width: 70%;
     height: 20px;
   }
 }
 .skill-bar2{
-  width: 70%;
+  width: 65%;
   height: 20px;
   background: rgb(214, 116, 86);
   animation: bar2 1s;
@@ -554,7 +555,7 @@ html {
   }
 }
 .skill-bar3{
-  width: 70%;
+  width: 60%;
   height: 20px;
   background: rgb(214, 116, 86);
   animation: bar3 1s;
@@ -589,7 +590,7 @@ html {
 }
 /* -----------------------col-right */
 .skill-bar5{
-  width: 70%;
+  width: 60%;
   height: 20px;
   background: rgb(214, 116, 86);
   animation: bar5 1s;
@@ -606,7 +607,7 @@ html {
   }
 }
 .skill-bar6{
-  width: 70%;
+  width: 50%;
   height: 20px;
   background: rgb(214, 116, 86);
   animation: bar6 1s;
