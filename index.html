@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- swiper -->
     <link rel="stylesheet" href="./library/swiper-4.5.0/dist/css/swiper.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- animate -->
     <link rel="stylesheet" href="./library/animate.css-master/animate.min.css">
     <link rel="stylesheet" href="./library/WOW-master/css/libs/animate.css">
     <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
@@ -82,7 +85,8 @@
                 </a>
             </div>
             <div class="intro-download">
-                <a href="" download="">
+                    <!-- download="https://drive.google.com/open?id=1ghEKyltfFKKAvvkaAyZQxoCQzzNn1Ree" -->
+                    <a href="https://drive.google.com/open?id=1ghEKyltfFKKAvvkaAyZQxoCQzzNn1Ree">
                     <button class="">Tải CV</button>
                 </a>
             </div>
@@ -161,7 +165,7 @@
             </div> -->
                     <div class="content-right-container animated bounceInRight wow">
                         <div class="content-right">
-                            <h3>2010</h3>
+                            <h3>2010-2013</h3>
                             <h5>THPT</h5>
                             <p>Học THPT tại trường Nguyễn Hữu Thọ</p>
                             <!-- <span class="article-number">2222</span></p> -->
@@ -204,7 +208,7 @@
                         <div class="content-right">
                             <h3>9-2018 <i class="fa fa-arrow-right" aria-hidden="true"></i> 6-2019</h3>
                             <h5>FrontEnd</h5>
-                            <p>Học FrontEnd tại CyberSoft Academy</p>
+                            <p>Học lập trình Front-End chuyên sâu tại CyberSoft Academy</p>
                         </div>
                     </div>
                     <div class="meta-date animated fadeIn wow">
@@ -229,10 +233,10 @@
                     <div>
                         <div class="d-flex justify-content-between">
                             <span>HTML/HTML5</span>
-                            <span class="text-right">80%</span>
+                            <span class="text-right">70%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar1"></div>
+                            <div class="skill-bar1 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
@@ -241,7 +245,7 @@
                             <span class="text-right">65%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar2"></div>
+                            <div class="skill-bar2 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
@@ -250,7 +254,7 @@
                             <span class="text-right">60%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar3"></div>
+                            <div class="skill-bar3 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
@@ -259,7 +263,7 @@
                             <span class="text-right">70%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar4"></div>
+                            <div class="skill-bar4 animated fadeIn wow"></div>
                         </div>
                     </div>
                 </div>
@@ -271,16 +275,16 @@
                             <span class="text-right">60%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar5"></div>
+                            <div class="skill-bar5 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
                         <div class="d-flex justify-content-between">
                             <span>Webpack/Git</span>
-                            <span class="text-right">50%</span>
+                            <span class="text-right ">50%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar6"></div>
+                            <div class="skill-bar6 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
@@ -289,7 +293,7 @@
                             <span class="text-right">70%</span>
                         </div>
                         <div class="skill-bar ">
-                            <div class="skill-bar7"></div>
+                            <div class="skill-bar7 animated fadeIn wow"></div>
                         </div>
                     </div>
                     <div>
@@ -309,16 +313,52 @@
     <!-- ----------------------------porfolio------------------------------------------ -->
     <section class=" portfolio container" id="portfolio">
         <h1 class="text-center pt-5">Dự Án</h1>
-        <div class="row">
-            <div style="width:500px;height:500px" class="col-12 col-sm-12 col-md-12 col-lg-6">
-                <h1 class="text-center">Angular</h1>
-                <iframe width=100% height="260" src="https://www.youtube.com/embed/YksGdUQCS7w" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Angular/ReactJS</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">HTML/CSS</a>
 
             </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active my-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                    <div style="width:500px;height:500px" class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <!-- <h1 class="text-center">Angular</h1> -->
+                        <iframe width=100% height="260" src="https://www.youtube.com/embed/YksGdUQCS7w" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+                    <!-- <div style="width:500px;height:500px" class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <img src="./img/intruction.png" alt="">                
+                
+                            </div> -->
+                </div>
+            </div>
+            <div class="tab-pane fade my-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+                        <img  data-toggle="modal" data-target="#myModal1" style="width: 100%;height: 100%;cursor: pointer;" src="./img/intructionfix.PNG"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+                        <img data-toggle="modal" data-target="#myModal2" style="width: 100%;height: 100%;cursor: pointer;" src="./img/movie-star1.png"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+                        <img data-toggle="modal" data-target="#myModal3" style="width: 100%;height: 100%;cursor: pointer;" src="./img/bai-tap-tong-hop1.png"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
         </div>
+
     </section>
+
     <!-- -------------------------end porfolio------------------------------------------ -->
     <!-- -----------------------------------------contact-------------------------------- -->
     <section class="contact" id="contact">
@@ -386,9 +426,66 @@
 
     </section>
     <!-- -----------------------------------------end contact---------------------------- -->
+    <!-- modal 1-->
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 100%;" src="./img/intruction.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
 
-
+        </div>
+    </div>
+    <!-- end modal 1 -->
+    <!-- modal 2-->
+    <div id="myModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img style="width: 100%;" src="./img/movie-star.png" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!-- end modal 2 -->
+         <!-- modal 3-->
+    <div id="myModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img style="width: 100%;" src="./img/bai-tap-tong-hop.png" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!-- end modal 3 -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -412,6 +509,7 @@
                 new WOW().init();
             }
         });
+
     </script>
 
     <!-- swiper -->
